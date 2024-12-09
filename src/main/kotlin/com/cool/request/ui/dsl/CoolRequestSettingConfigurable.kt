@@ -61,6 +61,13 @@ class CoolRequestSettingConfigurable(val project: Project) :
                     }).comment(ResourceBundleUtils.getString("enable.dynamic.refresh.desc"))
                 }
                 row {
+                    checkBox(ResourceBundleUtils.getString("enable.enum.hits"), {
+                        setting.enableEnumHits
+                    }, {
+                        setting.enableEnumHits = it
+                    }).comment(ResourceBundleUtils.getString("enable.enum.hits.desc"))
+                }
+                row {
                     checkBox(ResourceBundleUtils.getString("auto.goto.code"),
                         { setting.autoNavigation },
                         { setting.autoNavigation = it }).comment(ResourceBundleUtils.getString("auto.goto.code.desc"))

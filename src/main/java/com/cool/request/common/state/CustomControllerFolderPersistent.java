@@ -21,7 +21,6 @@
 package com.cool.request.common.state;
 
 import com.cool.request.components.http.CustomController;
-import com.cool.request.components.http.CustomController;
 import com.cool.request.utils.MessagesWrapperUtils;
 import com.cool.request.utils.ResourceBundleUtils;
 import com.cool.request.utils.StringUtils;

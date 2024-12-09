@@ -26,6 +26,7 @@ public class SettingsState {
     public String apiFoxAuthorization;
     public String openApiToken;
     public int languageValue;
+    public boolean enableEnumHits;
     public String environmentSelectId;
     public boolean enableDynamicRefresh;
     public boolean autoRefreshData;
@@ -66,6 +67,7 @@ public class SettingsState {
         apiFoxAuthorization = "";
         openApiToken = "";
         languageValue = 0;
+        enableEnumHits = true;
         environmentSelectId = "";
         autoNavigation = true;
         listenerGateway = true;
